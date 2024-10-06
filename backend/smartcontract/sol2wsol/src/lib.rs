@@ -44,7 +44,7 @@ pub fn process_instruction(
 ) -> ProgramResult {
     
     let seed = _instruction_data[0];
-    let exists_flag = _instruction_data[1]; //1 account no exists, 0 account exist
+    let exists_flag = _instruction_data[1]; // 1 means the account exists, 0 means the account does not exist.
 
     let accounts_iter = &mut accounts.iter();
     

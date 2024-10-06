@@ -12,7 +12,6 @@ import {
     ComputeBudgetProgram
 } from "@solana/web3.js";
 import { Buffer } from 'buffer';
-import { Token, TOKEN_PROGRAM_ID, ASSOCIATED_TOKEN_PROGRAM_ID } from '@solana/spl-token';
 
 const DEBUG = true;
 const SOLANA_DEVNET_ENDPOINT = process.env.REACT_APP_QUICKNODE_RPC;
